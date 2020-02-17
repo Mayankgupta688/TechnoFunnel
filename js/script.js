@@ -6,7 +6,7 @@
 	//Preloader
 	function handlePreloader() {
 		if($('.preloader').length){
-			$('.preloader').delay(500).fadeOut(500);
+			$('.preloader').delay(0).fadeOut(0);
 		}
 	}
 	
@@ -645,9 +645,9 @@
    ========================================================================== */
 	
 	$(window).on('load', function() {
-		handlePreloader();
+		
 	});
 
-	
+	handlePreloader();
 
 })(window.jQuery);
