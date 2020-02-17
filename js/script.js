@@ -578,7 +578,6 @@
 			el: '#map-location',
 			zoom: 14,
 			scrollwheel:false,
-			//Set Latitude and Longitude Here
 			lat: -37.817085,
 			lng: 144.955631
 		  });
