@@ -9,10 +9,8 @@ window.addEventListener("scroll", () => {
 
   if (scrollTop > clientHeight) {
     window.document.getElementById("first_nav").style.display = "none";
-    window.document.getElementById("second_nav").style.display = "flex";
   }
   if (scrollTop <= clientHeight) {
     window.document.getElementById("first_nav").style.display = "flex";
-    window.document.getElementById("second_nav").style.display = "none";
   }
 });
